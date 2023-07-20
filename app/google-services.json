@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "880549156711",
+    "project_id": "bankapp-88047",
+    "storage_bucket": "bankapp-88047.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880549156711:android:361d264de2b44d1ccd41c2",
+        "android_client_info": {
+          "package_name": "com.h5200026_bedirhan_aydin_bankacilik_uygulamasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880549156711-n523h6273ti2edj99e70p80m8q1lt71h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOR8qJrFZrzeHMDBZ8JSOah9NbNOAQKRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880549156711-n523h6273ti2edj99e70p80m8q1lt71h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

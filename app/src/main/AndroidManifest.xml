@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.h5200026_bedirhan_aydin_bankacilik_uygulamasi">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/play_store_512"
+        android:label="Mobilb"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".hesap"
+            android:exported="false" />
+        <activity
+            android:name=".fatura"
+            android:exported="false" />
+        <activity
+            android:name=".User"
+            android:exported="false" />
+        <activity
+            android:name=".İslemMenusu"
+            android:exported="false" />
+        <activity
+            android:name=".basvurular"
+            android:exported="false" />
+        <activity
+            android:name=".Sifreunuttum"
+            android:exported="false" />
+        <activity
+            android:name=".AnaSayfa"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".TicariGiris"
+            android:exported="false" />
+        <activity
+            android:name=".Musteriolmkistiyorum"
+            android:exported="false" />
+        <activity
+            android:name=".giris_ekrani"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
